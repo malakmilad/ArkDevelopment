@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_about_arks",
+  "info": {
+    "displayName": "about_ark"
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

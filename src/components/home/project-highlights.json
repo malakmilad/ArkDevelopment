@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_home_project_highlights",
+  "info": {
+    "displayName": "project_highlights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.highlights"
+    }
+  }
+}

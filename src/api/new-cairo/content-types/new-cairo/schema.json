@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "new_cairos",
+  "info": {
+    "singularName": "new-cairo",
+    "pluralName": "new-cairos",
+    "displayName": "New cairo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.banner"
+    },
+    "Project_highlights": {
+      "displayName": "project_highlights",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.project-highlights"
+    },
+    "Features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "new-cairo.features"
+    },
+    "Masterplan": {
+      "displayName": "masterplan",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.masterplan"
+    },
+    "Map": {
+      "displayName": "map",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.map"
+    },
+    "Metadata": {
+      "displayName": "meta_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.meta-data"
+    }
+  }
+}

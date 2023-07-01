@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_business_highlights_sliders",
+  "info": {
+    "displayName": "highlights_slider"
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

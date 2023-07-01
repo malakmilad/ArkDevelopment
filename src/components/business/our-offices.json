@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_business_our_offices",
+  "info": {
+    "displayName": "our_offices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "area_name": {
+      "type": "string"
+    },
+    "area_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "area_text": {
+      "type": "string"
+    },
+    "action_button": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cover_image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cover_image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_action_button_twos",
+  "info": {
+    "displayName": "action_button_two",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

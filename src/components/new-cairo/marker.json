@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_new_cairo_markers",
+  "info": {
+    "displayName": "marker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "x_positon_desktop": {
+      "type": "float"
+    },
+    "y_positon_desktop": {
+      "type": "float"
+    },
+    "x_positon_mobile": {
+      "type": "float"
+    },
+    "y_positon_mobile": {
+      "type": "float"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location_image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location_image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_business_buildings",
+  "info": {
+    "displayName": "buildings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "specific_information": {
+      "displayName": "specific_information",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.specific-information"
+    },
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "media_centers",
+  "info": {
+    "singularName": "media-center",
+    "pluralName": "media-centers",
+    "displayName": "Media center",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "media.banner"
+    },
+    "Metadata": {
+      "displayName": "meta_data",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "media.meta-data"
+    }
+  }
+}

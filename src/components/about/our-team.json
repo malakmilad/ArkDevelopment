@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_our_teams",
+  "info": {
+    "displayName": "our_team"
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

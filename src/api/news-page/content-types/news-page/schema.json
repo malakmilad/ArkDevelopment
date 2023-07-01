@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "singularName": "news-page",
+    "pluralName": "news-pages",
+    "displayName": "News page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "news-page.banner"
+    },
+    "Metadata": {
+      "displayName": "meta_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "news-page.meta-data"
+    }
+  }
+}

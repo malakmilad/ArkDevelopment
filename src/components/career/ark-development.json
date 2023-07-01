@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_career_ark_developments",
+  "info": {
+    "displayName": "ark_development",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answers": {
+      "displayName": "answers",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.answers"
+    }
+  }
+}

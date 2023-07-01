@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.banner"
+    },
+    "About_ark": {
+      "displayName": "main_card",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.main-card"
+    },
+    "Project_facilities": {
+      "displayName": "projects",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.projects"
+    },
+    "Project_highlights": {
+      "displayName": "project_highlights",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.project-highlights"
+    },
+    "Partners": {
+      "displayName": "partners",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.partners"
+    },
+    "Map": {
+      "displayName": "map",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.map"
+    },
+    "Whats_on": {
+      "displayName": "What’s_on",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.what-s-on"
+    },
+    "Metadata": {
+      "displayName": "meta_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.meta-data"
+    }
+  }
+}

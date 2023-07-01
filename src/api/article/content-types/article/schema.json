@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Article_header": {
+      "displayName": "header_article",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.header-article"
+    },
+    "Body": {
+      "displayName": "body",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.body"
+    },
+    "Other_news": {
+      "displayName": "other_news",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.other-news"
+    },
+    "Card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.card"
+    },
+    "Metadata": {
+      "displayName": "meta_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.meta-data"
+    }
+  }
+}

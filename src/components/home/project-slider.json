@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_project_sliders",
+  "info": {
+    "displayName": "project_slider"
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

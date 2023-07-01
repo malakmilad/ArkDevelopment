@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_article_header_articles",
+  "info": {
+    "displayName": "header_article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image_header_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_header_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

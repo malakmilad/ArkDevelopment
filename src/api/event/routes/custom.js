@@ -1,0 +1,21 @@
+module.exports={
+  routes:[
+    {
+      method:'GET',
+      path:'/events/before',
+      handler:'event.findBeforeCurrentDate',
+      config:{
+        auth:false,
+      }
+    },
+    {
+      method:'GET',
+      path:'/events/after',
+      handler:'event.findAfterCurrentDate',
+      config:{
+        auth:false,
+      }
+
+    }
+  ]
+}

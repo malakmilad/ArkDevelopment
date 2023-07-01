@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_business_construction_updates",
+  "info": {
+    "displayName": "construction_updates"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "construction_slider": {
+      "displayName": "construction_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.construction-slider"
+    }
+  }
+}

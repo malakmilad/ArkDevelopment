@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_new_cairo_locations",
+  "info": {
+    "displayName": "locations"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

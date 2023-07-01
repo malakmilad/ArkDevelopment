@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_facilities",
+  "info": {
+    "displayName": "facilities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "facilities_slider": {
+      "displayName": "project_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.project-slider"
+    }
+  }
+}

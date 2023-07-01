@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_maps",
+  "info": {
+    "displayName": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "get_direction_button": {
+      "displayName": "call-to-action",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.call-to-action"
+    },
+    "locations": {
+      "displayName": "site",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.site"
+    },
+    "map": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

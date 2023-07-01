@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_business_green_livings",
+  "info": {
+    "displayName": "green_living",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "green_living_details": {
+      "displayName": "green_living_details",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.green-living-details"
+    }
+  }
+}

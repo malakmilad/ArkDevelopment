@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_business_project_highlights",
+  "info": {
+    "displayName": "project_highlights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "inquire_now_button": {
+      "displayName": "action_button_one",
+      "type": "component",
+      "repeatable": false,
+      "component": "business.action-button-one"
+    },
+    "master_plan_button": {
+      "displayName": "action_button_two",
+      "type": "component",
+      "repeatable": false,
+      "component": "business.action-button-two"
+    },
+    "brochure_button": {
+      "displayName": "action_button_three",
+      "type": "component",
+      "repeatable": false,
+      "component": "business.action-button-three"
+    },
+    "highlights_slider": {
+      "displayName": "highlights_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.highlights-slider"
+    }
+  }
+}

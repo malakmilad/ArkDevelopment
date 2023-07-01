@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_business_specific_informations",
+  "info": {
+    "displayName": "specific_information"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

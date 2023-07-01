@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_article_other_news",
+  "info": {
+    "displayName": "other_news"
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

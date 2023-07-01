@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_career_job",
+  "info": {
+    "displayName": "job",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "job_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "job_type": {
+      "type": "string"
+    },
+    "job_location": {
+      "type": "string"
+    },
+    "job_brief": {
+      "type": "richtext"
+    },
+    "job_description": {
+      "displayName": "job_description",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.job-description"
+    },
+    "note": {
+      "type": "richtext"
+    }
+  }
+}

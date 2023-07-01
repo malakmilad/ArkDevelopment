@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_career_current_openings",
+  "info": {
+    "displayName": "current_openings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "job_requirement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.job"
+    }
+  }
+}

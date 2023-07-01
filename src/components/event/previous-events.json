@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_event_previous_events",
+  "info": {
+    "displayName": "previous_events"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    }
+  }
+}

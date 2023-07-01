@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_business_green_living_details",
+  "info": {
+    "displayName": "green_living_details"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

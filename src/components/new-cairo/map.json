@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_new_cairo_maps",
+  "info": {
+    "displayName": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "get_direction_button": {
+      "displayName": "get_direction_button",
+      "type": "component",
+      "repeatable": false,
+      "component": "new-cairo.get-direction-button"
+    },
+    "locations": {
+      "displayName": "locations",
+      "type": "component",
+      "repeatable": true,
+      "component": "new-cairo.locations"
+    },
+    "map": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_highlight_sliders",
+  "info": {
+    "displayName": "highlight_slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

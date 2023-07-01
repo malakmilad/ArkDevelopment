@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_business_offices_types",
+  "info": {
+    "displayName": "offices_types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "brochure_button": {
+      "displayName": "brochure_button",
+      "type": "component",
+      "repeatable": false,
+      "component": "business.brochure-button"
+    },
+    "our_offices": {
+      "displayName": "our_offices",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.our-offices"
+    }
+  }
+}

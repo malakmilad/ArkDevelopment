@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_new_cairo_get_direction_buttons",
+  "info": {
+    "displayName": "get_direction_button"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

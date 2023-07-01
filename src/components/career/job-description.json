@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_career_job_descriptions",
+  "info": {
+    "displayName": "job_description"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

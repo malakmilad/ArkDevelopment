@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_new_cairo_masterplans",
+  "info": {
+    "displayName": "masterplan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location": {
+      "displayName": "marker",
+      "type": "component",
+      "repeatable": true,
+      "component": "new-cairo.marker"
+    }
+  }
+}

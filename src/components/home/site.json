@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_sites",
+  "info": {
+    "displayName": "site"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "text"
+    },
+    "location": {
+      "type": "text"
+    }
+  }
+}

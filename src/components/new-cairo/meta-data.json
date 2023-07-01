@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_new_cairo_meta_data",
+  "info": {
+    "displayName": "meta_data"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

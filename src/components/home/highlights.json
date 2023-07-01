@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_highlights",
+  "info": {
+    "displayName": "highlights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "brochure_button": {
+      "displayName": "action_button",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.action-button"
+    },
+    "master_plan_button": {
+      "displayName": "action_button_two",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.action-button-two"
+    },
+    "highlights_slider": {
+      "displayName": "highlight_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.highlight-slider"
+    }
+  }
+}

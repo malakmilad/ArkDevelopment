@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_what_s_ons",
+  "info": {
+    "displayName": "What’s_on",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

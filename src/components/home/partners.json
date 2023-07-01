@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_partners",
+  "info": {
+    "displayName": "partners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "url_text": {
+      "type": "text"
+    },
+    "partners_logos": {
+      "displayName": "partners_logos",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.partners-logos"
+    }
+  }
+}

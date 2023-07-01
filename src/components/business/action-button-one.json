@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_business_action_button_ones",
+  "info": {
+    "displayName": "action_button_one"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

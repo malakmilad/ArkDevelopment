@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_event_upcoming_events",
+  "info": {
+    "displayName": "upcoming_events"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    }
+  }
+}

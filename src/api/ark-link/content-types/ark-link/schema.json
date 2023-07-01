@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "ark_links",
+  "info": {
+    "singularName": "ark-link",
+    "pluralName": "ark-links",
+    "displayName": "Ark link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location_name": {
+      "type": "text"
+    },
+    "location_url": {
+      "type": "text"
+    },
+    "direction_name": {
+      "type": "text"
+    },
+    "direction_url": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "email_url": {
+      "type": "text"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "phone_url": {
+      "type": "text"
+    },
+    "facebook_url": {
+      "type": "text"
+    },
+    "youtube_url": {
+      "type": "text"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "Instagram_url": {
+      "type": "string"
+    }
+  }
+}
